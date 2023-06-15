@@ -22,7 +22,7 @@ export default function index() {
 
   return (
     <>
-      <button onClick={() => setData((prev) => prev + 1)}></button>
+      <button onClick={() => setData((prev) => prev + 1)}>확인</button>
     </>
   );
 }
